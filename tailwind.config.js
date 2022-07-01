@@ -5,7 +5,9 @@ module.exports = {
     extend: {
       colors: {
         btnBlue: "#3164ad",
-        btnLime: "#b3c940",
+        customBlueHover: "#4c82cd",
+        customLime: "#ADCC00",
+        customLimeHover: "#c3e600",
       },
     },
   },
