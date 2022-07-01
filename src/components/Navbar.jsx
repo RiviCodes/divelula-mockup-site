@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Navbar() {
   return (
-    <nav className="flex flex-row items-center bg-slate-300">
+    <nav className="flex flex-row items-center py-2 bg-slate-300">
       <img
         className="mr-auto xl:w-40 xl:p-4"
         src="images/GEM_logo.png"
