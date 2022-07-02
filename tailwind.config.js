@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        btnBlue: "#3164ad",
+        customBlue: "#3164ad",
         customBlueHover: "#4c82cd",
         customLime: "#ADCC00",
         customLimeHover: "#c3e600",
