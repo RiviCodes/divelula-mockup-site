@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Intro() {
   return (
-    <section className="flex flex-col items-center">
+    <section className="flex flex-col items-center mt-32">
       {/* HEADER */}
       <div className="flex flex-row items-center justify-center mb-14">
         <img className="h-12" src="images/l-bracket.png" alt="" />
