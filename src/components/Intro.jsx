@@ -40,10 +40,14 @@ export default function Intro() {
 
       {/* GRID */}
       <div className="grid grid-cols-1 xl:grid-cols-12 bg-cover bg-no-repeat bg-[url('../public/images/floor-bg.png')]">
-        <div className="cols-span-1 xl:col-span-6">
-          <img className="" src="images/home-girls.png" alt="" />
+        <div className="order-2 xl:order-1 cols-span-1 xl:col-span-6 flex justify-center">
+          <img
+            className="w-10/12 xl:w-auto"
+            src="images/home-girls.png"
+            alt=""
+          />
         </div>
-        <div className="cols-span-1 xl:col-span-6 flex flex-col items-center justify-center mr-44">
+        <div className="order-1 xl:order-2 cols-span-1 xl:col-span-6 flex flex-col items-center justify-center my-20 xl:my-0 xl:mr-44">
           <div className="border-2 rounded-lg p-8 flex flex-col items-center justify-center">
             <img
               className="w-3/12 -mt-16 mb-2"
