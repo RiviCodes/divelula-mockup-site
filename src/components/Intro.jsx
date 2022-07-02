@@ -33,14 +33,23 @@ export default function Intro() {
       {/* GRID */}
       <div className="grid grid-cols-12 bg-cover bg-no-repeat bg-[url('../public/images/floor-bg.png')]">
         <div className="col-span-6">
-          <img src="images/home-girls.png" alt="" />
+          <img className="" src="images/home-girls.png" alt="" />
         </div>
-        <div className="col-span-6 flex flex-col items-center justify-center">
-          <p>
-            "The harvest is plentiful<br></br> but the laborers are few"
-          </p>
-          <span>LUKE 10:2</span>
-          <button>GO TO THE HARVEST</button>
+        <div className="col-span-6 flex flex-col items-center justify-center mr-44">
+          <div className="border-2 rounded-lg p-8 flex flex-col items-center justify-center">
+            <img
+              className="w-3/12 -mt-16 mb-2"
+              src="images/quotes.png"
+              alt=""
+            />
+            <p className="text-xl font-medium italic text-white mb-1">
+              "The harvest is plentiful<br></br> but the laborers are few"
+            </p>
+            <span className="text-sm font-bold text-white mb-3">LUKE 10:2</span>
+            <button className="btn mx-2 -mb-12 px-6 py-1 rounded-full text-sm font-semibold text-white bg-customLime hover:bg-customLimeHover transition ease-in-out delay">
+              GO TO THE HARVEST
+            </button>
+          </div>
         </div>
       </div>
     </section>
