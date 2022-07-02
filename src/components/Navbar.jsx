@@ -2,13 +2,13 @@ import React from "react";
 
 export default function Navbar() {
   return (
-    <nav className="flex flex-row items-center py-2">
+    <nav className="flex flex-row items-center md:py-1 lg:py-2">
       <img
-        className="mr-auto w-4/12 xl:w-40 p-3 xl:p-3 ml-1 xl:ml-3"
+        className="mr-auto w-4/12 md:w-3/12 xl:w-40 p-3 xl:p-3 ml-1 xl:ml-3"
         src="images/GEM_logo.png"
         alt=""
       />
-      <ul className="hidden md:flex flex-row justify-center">
+      <ul className="hidden lg:flex flex-row justify-center">
         <li className="mr-6 text-sm font-semibold hover:text-customLime transition ease-in-out delay">
           <a href="">HOME</a>
         </li>
