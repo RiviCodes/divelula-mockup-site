@@ -26,24 +26,24 @@ export default function Intro() {
 
       {/* GRID */}
       <div className="grid grid-cols-1 items-center xl:grid-cols-12">
-        <div className="col-span-6 justify-self-center xl:justify-self-end mb-9 xl:mr-32">
+        <div className="cols-span-1 xl:col-span-6 justify-self-center xl:justify-self-end mb-9 xl:mr-32">
           <h3 className="text-center xl:text-start text-2xl tracking-wider text-customBlue">
             Planting Seeds<br></br> of the{" "}
             <span className="font-extrabold tracking-normal">GOSPEL</span>
           </h3>
           <p className="text-sm text-customBlue">ONE CLASSROOM AT A TIME</p>
         </div>
-        <div className="col-span-6">
+        <div className="cols-span-1 xl:col-span-6 mb-12 xl:mb-0">
           <img src="images/map.png" alt="" />
         </div>
       </div>
 
       {/* GRID */}
-      <div className="grid grid-cols-12 bg-cover bg-no-repeat bg-[url('../public/images/floor-bg.png')]">
-        <div className="col-span-6">
+      <div className="grid grid-cols-1 xl:grid-cols-12 bg-cover bg-no-repeat bg-[url('../public/images/floor-bg.png')]">
+        <div className="cols-span-1 xl:col-span-6">
           <img className="" src="images/home-girls.png" alt="" />
         </div>
-        <div className="col-span-6 flex flex-col items-center justify-center mr-44">
+        <div className="cols-span-1 xl:col-span-6 flex flex-col items-center justify-center mr-44">
           <div className="border-2 rounded-lg p-8 flex flex-col items-center justify-center">
             <img
               className="w-3/12 -mt-16 mb-2"
