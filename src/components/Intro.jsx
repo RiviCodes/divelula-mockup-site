@@ -2,24 +2,32 @@ import React from "react";
 
 export default function Intro() {
   return (
-    <section className="flex flex-col items-center mt-32">
+    <section className="flex flex-col items-center mt-20 xl:mt-32">
       {/* HEADER */}
       <div className="flex flex-row items-center justify-center mb-14">
-        <img className="h-12" src="images/l-bracket.png" alt="" />
-        <p className="text-xl font-medium w-12/12 mx-14">
-          Our desire is to expose communities all across the world<br></br> to
-          the gospel by starting{" "}
+        <img
+          className="h-12 hidden xl:block"
+          src="images/l-bracket.png"
+          alt=""
+        />
+        <p className="text-base text-center xl:text-start xl:text-xl font-medium xl:w-12/12 mx-4 xl:mx-14">
+          Our desire is to expose communities all across the world
+          <br className="hidden xl:block"></br> to the gospel by starting{" "}
           <span className="font-extrabold text-customLime">
             GOSPEL SATURATED SCHOOLS
           </span>
         </p>
-        <img className="h-12" src="images/r-bracket.png" alt="" />
+        <img
+          className="h-12 hidden xl:block"
+          src="images/r-bracket.png"
+          alt=""
+        />
       </div>
 
       {/* GRID */}
       <div className="grid grid-cols-1 items-center xl:grid-cols-12">
-        <div className="col-span-6 justify-self-end mr-32">
-          <h3 className="text-customBlue text-2xl tracking-wider">
+        <div className="col-span-6 justify-self-center xl:justify-self-end mb-9 xl:mr-32">
+          <h3 className="text-center xl:text-start text-2xl tracking-wider text-customBlue">
             Planting Seeds<br></br> of the{" "}
             <span className="font-extrabold tracking-normal">GOSPEL</span>
           </h3>
