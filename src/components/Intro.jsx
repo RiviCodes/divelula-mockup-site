@@ -15,6 +15,9 @@ export default function Intro() {
         </p>
         <img className="h-12" src="images/r-bracket.png" alt="" />
       </div>
+
+      {/* GRID */}
+      <div className="grid grid-cols-1 xl:grid-cols-12"></div>
     </section>
   );
 }
