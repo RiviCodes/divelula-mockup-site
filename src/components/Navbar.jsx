@@ -4,11 +4,11 @@ export default function Navbar() {
   return (
     <nav className="flex flex-row items-center py-2">
       <img
-        className="mr-auto xl:w-40 xl:p-3 xl:ml-3"
+        className="mr-auto w-4/12 xl:w-40 p-3 xl:p-3 ml-1 xl:ml-3"
         src="images/GEM_logo.png"
         alt=""
       />
-      <ul className="flex flex-row justify-center">
+      <ul className="hidden md:flex flex-row justify-center">
         <li className="mr-6 text-sm font-semibold hover:text-customLime transition ease-in-out delay">
           <a href="">HOME</a>
         </li>
