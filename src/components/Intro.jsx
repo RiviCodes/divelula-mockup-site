@@ -29,6 +29,14 @@ export default function Intro() {
           <img src="images/map.png" alt="" />
         </div>
       </div>
+
+      {/* GRID */}
+      <div className="grid grid-cols-12 bg-cover bg-no-repeat bg-[url('../public/images/floor-bg.png')]">
+        <div className="col-span-6">
+          <img src="images/home-girls.png" alt="" />
+        </div>
+        <div className="col-span-6"></div>
+      </div>
     </section>
   );
 }
