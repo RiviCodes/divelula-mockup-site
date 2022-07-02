@@ -3,7 +3,7 @@ import React from "react";
 export default function Hero() {
   return (
     <section
-      className="flex flex-col justify-start xl:justify-center items-center h-40 xl:h-96 w-auto md:h-screen bg-cover xl:bg-cover bg-no-repeat bg-[url('../public/images/bg.png')]"
+      className="flex flex-col justify-start xl:justify-center items-center h-40 md:h-96 xl:h-96 w-auto md:w-auto bg-center bg-cover md:bg-cover xl:bg-cover bg-no-repeat bg-[url('../public/images/bg.png')]"
       id="#hero"
     >
       <img
