@@ -35,7 +35,13 @@ export default function Intro() {
         <div className="col-span-6">
           <img src="images/home-girls.png" alt="" />
         </div>
-        <div className="col-span-6"></div>
+        <div className="col-span-6 flex flex-col items-center justify-center">
+          <p>
+            "The harvest is plentiful<br></br> but the laborers are few"
+          </p>
+          <span>LUKE 10:2</span>
+          <button>GO TO THE HARVEST</button>
+        </div>
       </div>
     </section>
   );
