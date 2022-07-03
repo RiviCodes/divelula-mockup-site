@@ -6,7 +6,7 @@ export default function Intro() {
       {/* HEADER */}
       <div className="flex flex-row items-center justify-center mb-14">
         <img
-          className="h-12 hidden xl:block"
+          className="h-12 hidden lg:block"
           src="images/l-bracket.png"
           alt=""
         />
@@ -18,7 +18,7 @@ export default function Intro() {
           </span>
         </p>
         <img
-          className="h-12 hidden xl:block"
+          className="h-12 hidden lg:block"
           src="images/r-bracket.png"
           alt=""
         />
