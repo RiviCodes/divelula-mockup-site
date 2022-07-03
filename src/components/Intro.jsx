@@ -42,7 +42,7 @@ export default function Intro() {
       <div className="grid grid-cols-1 xl:grid-cols-12 bg-cover bg-no-repeat bg-[url('../public/images/floor-bg.png')]">
         <div className="order-2 xl:order-1 cols-span-1 xl:col-span-6 flex justify-center">
           <img
-            className="w-9/12 sm:w-8/12 lg:w-7/12 xl:w-7/12"
+            className="w-9/12 sm:w-8/12 lg:w-7/12 xl:w-9/12"
             src="images/home-girls.png"
             alt=""
           />
