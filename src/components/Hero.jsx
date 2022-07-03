@@ -11,7 +11,7 @@ export default function Hero() {
         src="images/play.png"
         alt=""
       />
-      <h3 className="self-end mr-1 sm:mr-2 xl:mr-10 text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-4xl text-white">
+      <h3 className="self-end mr-1 sm:mr-2 xl:mr-10 xl:mb-12 text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-4xl text-white">
         CALLED TO <span className="font-extrabold">GO</span>
       </h3>
     </section>
