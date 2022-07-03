@@ -7,7 +7,7 @@ export default function Hero() {
       id="#hero"
     >
       <img
-        className="h-auto w-1/12 xl:w-20 mt-16 xl:mt-28 sm:pt-0 pb-10 sm:pb-0 xl:pb-24"
+        className="h-auto w-2/12 sm:w-1/12 xl:w-20 mt-16 xl:mt-28 sm:pt-0 pb-6 sm:pb-0 xl:pb-24"
         src="images/play.png"
         alt=""
       />
