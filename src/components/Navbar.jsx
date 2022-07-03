@@ -28,10 +28,10 @@ export default function Navbar() {
           <a href="">CONTACT</a>
         </li>
       </ul>
-      <button className="btn mx-2 px-6 py-1 rounded-full text-sm font-semibold text-white bg-customBlue hover:bg-customBlueHover transition ease-in-out delay">
+      <button className="btn mx-2 px-4 sm:px-6 py-1 rounded-full text-xs sm:text-sm font-semibold text-white bg-customBlue hover:bg-customBlueHover transition ease-in-out delay">
         GIVE NOW
       </button>
-      <button className="btn mx-2 px-6 py-1 rounded-full text-sm font-semibold text-white bg-customLime hover:bg-customLimeHover transition ease-in-out delay">
+      <button className="btn mx-2 px-4 sm:px-6 py-1 rounded-full text-xs sm:text-sm font-semibold text-white bg-customLime hover:bg-customLimeHover transition ease-in-out delay">
         {" "}
         APPLY NOW
       </button>
