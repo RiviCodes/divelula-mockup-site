@@ -7,11 +7,11 @@ export default function Hero() {
       id="#hero"
     >
       <img
-        className="h-auto w-2/12 sm:w-1/12 xl:w-20 mt-16 xl:mt-28 sm:pt-0 pb-6 sm:pb-0 xl:pb-24"
+        className="h-auto w-2/12 sm:w-1/12 xl:w-20 mt-16 xl:mt-28 sm:pt-0 pb-6 sm:pb-6 xl:pb-24"
         src="images/play.png"
         alt=""
       />
-      <h3 className="self-end mr-2 sm:mr-0 xl:mr-10 text-3xl xl:text-4xl text-white">
+      <h3 className="self-end mr-2 sm:mr-2 xl:mr-10 text-3xl xl:text-4xl text-white">
         CALLED TO <span className="font-extrabold">GO</span>
       </h3>
     </section>
